@@ -1,0 +1,55 @@
+#Container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10%;
+}
+ .Heading{
+    font-size:xx-large;
+ }
+.button::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+#Column1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Column2{
+    padding-left: 50%;
+}
+#Column3{
+    display: grid;
+    grid-template-columns: 50% 50%;}
+    #page4{
+        display: grid;
+        grid-template-columns: 50% 50%;}
+.Navbar{
+    overflow: hidden;
+    background-color:white;
+    padding-left: 1200px;
+    width:750px;
+    margin:0 auto;
+}
+.Navbar a{
+float: left;
+color: black;
+text-align: center;
+padding: 20px 20px 40px 40px;
+font-size: 20px;
+
+}
+.signs{
+    padding-left: 15%;
+    padding-right: 15%;
+    border:px solid black;
+
+}
+.footer {
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto;
+  gap: 10px;
+  padding-left: 30%;
+}
+
+
